@@ -1,0 +1,32 @@
+{
+  "name": "hansema",
+  "version": "1.0.0",
+  "description": "HANSEMA - Premium Giyim Mağazası",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "eticaret",
+    "giyim",
+    "premium",
+    "fashion",
+    "hansema"
+  ],
+  "author": "HANSEMA",
+  "license": "MIT",
+  "homepage": "https://hansema.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hansema/eticaret"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
